@@ -6,13 +6,15 @@ body {
 }
 
 .hero {
-    body {
-    margin: 0;
-    font-family: 'Arial', sans-serif';
-    color: #fff;
-    background: url('f1-main-page.jpeg') no-repeat center center fixed;
-    background-size: cover;
-}
+    background: url('f1-main-page.jpeg') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+    text-align: center;
 }
 
 .hero .btn {
